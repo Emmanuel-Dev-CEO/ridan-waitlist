@@ -19,9 +19,9 @@ const Home = () => {
 
     return (
         <>
-            <div className="bg-orange-600 h-[100%] overflow-y-hidden w-full">
+            <div className="bg-orange-600 min-h-screen overflow-y-hidden w-full">
                 <div
-                    className="bg-cover bg-center h-[100vh] md:h-[90vh] "
+                    className="bg-cover bg-center min-h-screen  "
                     style={{ backgroundImage: `url(${BgImage})` }}
                 >
                     {/* Navbar */}
@@ -70,7 +70,7 @@ const Home = () => {
                             <h1 className="font-bunge-inline text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-white">
                                 <span className="text-orange-300">Get!!!</span> <br /> Your Favorite Finds, <br /> Delivered to Your <br /> Doorstep
                             </h1>
-                            <p className="text-white font-bunge-inline font-semibold mt-4 text-sm sm:text-base md:text-lg lg:text-md xl:text-md">
+                            <p className="text-white font-bunge-inline font-semibold mt-4 text-sm sm:text-base md:text-md lg:text-md xl:text-md">
                                 Join the waitlist now and get ready for unlimited shopping, shop like a billionaire!!
                             </p>
                             <a href="#Waitlist" className="no-underline">

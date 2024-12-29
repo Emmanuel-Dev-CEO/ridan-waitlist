@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'bunge-inline': ['"Bungee Inline"', 'cursive'],
+        'bunge-inline': [ 'cursive'],
       },
     },
   },
