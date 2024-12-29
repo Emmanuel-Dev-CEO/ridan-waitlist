@@ -52,13 +52,13 @@ const Home = () => {
                             </button>
                         </div>
                         <ul className="flex flex-col gap-5 p-5 text-gray-700">
-                            <h3 className="text-orange-500 font-bunge-inline">Visit Our Socials</h3>
+                            <h3 className="text-orange-500 font-itim ">Visit Our Socials</h3>
                             <a href="#" className="hover:text-orange-500"><li><InstagramIcon className="text-orange-500" /></li></a>
                             <a href="#" className="hover:text-orange-500"><li><LinkedInIcon className="text-orange-500" /></li></a>
                             <a href="#" className="hover:text-orange-500"><li><FacebookIcon className="text-orange-500" /></li></a>
                             <a href="#" className="hover:text-orange-500"><li><XIcon className="text-orange-500" /></li></a>
                             <div className="flex gap-4 mt-5">
-                                <p className="text-orange-500 font-bunge-inline">Your home of ultimate shoping.</p>
+                                <p className="text-orange-500 font-itim ">Your home of ultimate shoping.</p>
                             </div>
                         </ul>
                     </div>
@@ -67,15 +67,15 @@ const Home = () => {
                     <div className="mt-[70px] flex mx-4 sm:mx-10 lg:mx-40 text-left justify-evenly flex-wrap">
                         <div className="gap-5 ">
 
-                            <h1 className="font-bunge-inline text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-white">
+                            <h1 className="font-itim text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-7xl font-bold text-white">
                                 <span className="text-orange-300">Get!!!</span> <br /> Your Favorite Finds, <br /> Delivered to Your <br /> Doorstep
                             </h1>
-                            <p className="text-white font-bunge-inline font-semibold mt-4 text-sm sm:text-base md:text-md lg:text-md xl:text-md">
+                            <p className="text-white font-itim mt-4 text-md sm:md md:text-lg lg:text-lg xl:text-lg">
                                 Join the waitlist now and get ready for unlimited shopping, shop like a billionaire!!
                             </p>
                             <a href="#Waitlist" className="no-underline">
                                 <button
-                                    className="text-orange-500 bg-white font-semibold shadow-xl mt-5 rounded-lg px-5 py-2"
+                                    className="text-orange-500 font-itim bg-white shadow-xl mt-5 rounded-lg px-5 py-2"
                                 >
                                     Join the waitlist
                                 </button>

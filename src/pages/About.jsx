@@ -13,8 +13,8 @@ const About = () => {
                     <img src={PhoneImage} alt="iPhone 15 Pro" className="max-w-full h-auto" />
                 </div>
                 <div className="w-full md:w-[50%] text-center md:text-left px-4">
-                    <h3 className="text-4xl font-bunge-inline font-bold text-orange-500 mb-4">WHO WE ARE</h3>
-                    <p className="text-gray-700 text-lg font-bunge-inline leading-relaxed">
+                    <h3 className="text-5xl font-bold text-orange-500 font-itim mb-4">WHO WE ARE</h3>
+                    <p className="text-gray-700 font-itim text-xl leading-relaxed">
                         At Ridan Express, we’re redefining the online shopping experience. Our platform is more than just a marketplace—it’s a gateway to convenience, quality, and value. With an extensive collection of premium products, competitive pricing, and a seamless shopping journey, we empower you to shop smarter and live better. Our mission goes beyond transactions; we aim to build lasting connections by delivering not just products, but exceptional experiences, every step of the way.
                     </p>
                 </div>

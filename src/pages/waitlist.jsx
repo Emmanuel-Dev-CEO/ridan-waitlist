@@ -79,16 +79,16 @@ const Waitlist = React.forwardRef((props, ref) => {
 
                 {/* Right Side: Form */}
                 <div className="md:w-1/2">
-                    <h2 className="text-3xl font-bunge-inline font-bold mb-4 text-center md:text-left">
+                    <h2 className="text-4xl font-bold font-itim mb-4 text-center md:text-left">
                         GET EARLY ACCESS TO <span className="text-orange-500">RIDAN EXPRESS</span>
                     </h2>
-                    <p className="text-gray-600 font-bunge-inline mb-6 text-center md:text-left">
+                    <p className="text-gray-600 mb-6 text-md text-center font-itim md:text-left">
                         Sign up for our waitlist and be the first to explore an exciting range of exclusive products at amazing prices.
-                        Don’t miss out—secure your spot now!
+                        Don’t miss out <span className='text-green-500'>secure your spot now!!!</span>
                     </p>
 
                     {submitted ? (
-                        <div className="bg-green-100 font-bunge-inline text-green-700 p-4 rounded-md text-center">
+                        <div className="bg-green-100 font-itim text-green-700 p-4 rounded-md text-center">
                             Congratulations!!, you have just joined the waitlist.
                         </div>
                     ) : (
@@ -100,7 +100,7 @@ const Waitlist = React.forwardRef((props, ref) => {
                                     placeholder="John"
                                     value={formData.firstName}
                                     onChange={handleChange}
-                                    className="w-full md:w-1/2 p-2 border rounded-md focus:outline-none focus:border-orange-500"
+                                    className="w-full md:w-1/2 p-2 border font-itim text-lg rounded-md focus:outline-none focus:border-orange-500"
                                 />
                                 <input
                                     type="text"
@@ -108,7 +108,7 @@ const Waitlist = React.forwardRef((props, ref) => {
                                     placeholder="Doe"
                                     value={formData.lastName}
                                     onChange={handleChange}
-                                    className="w-full md:w-1/2 p-2 border rounded-md focus:outline-none focus:border-orange-500"
+                                    className="w-full md:w-1/2 p-2 border text-lg font-itim rounded-md focus:outline-none focus:border-orange-500"
                                 />
                             </div>
                             <div className="mb-4">
@@ -118,7 +118,7 @@ const Waitlist = React.forwardRef((props, ref) => {
                                     placeholder="example@gmail.com"
                                     value={formData.email}
                                     onChange={handleChange}
-                                    className="w-full p-2 border rounded-md focus:outline-none focus:border-orange-500"
+                                    className="w-full p-2 border rounded-md text-lg font-itim focus:outline-none focus:border-orange-500"
                                 />
                             </div>
 
@@ -126,7 +126,7 @@ const Waitlist = React.forwardRef((props, ref) => {
 
                             <button
                                 type="submit"
-                                className="w-full font-bunge-inline bg-orange-500 text-white py-2 rounded-md hover:bg-orange-600 transition duration-300"
+                                className="w-full font-itim text-lg bg-orange-500 text-white py-2 rounded-md hover:bg-orange-600 transition duration-300"
                             >
                                 JOIN THE WAITLIST
                             </button>
@@ -140,8 +140,8 @@ const Waitlist = React.forwardRef((props, ref) => {
                 <div className="grid grid-cols-4 md:grid-cols-4 gap-2 md:gap-8 text-center font-semibold md:font-bold">
                     {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
                         <div key={unit} className="p-4 md:p-6 rounded-lg shadow-lg">
-                            <div className="text-orange-500 text-3xl font-bunge-inline md:text-6xl font-bold">{timeLeft[unit]}</div>
-                            <span className="text-sm md:text-lg font-bunge-inline text-gray-300 uppercase">{unit}</span>
+                            <div className="text-orange-500 text-3xl font-itim md:text-6xl font-bold">{timeLeft[unit]}</div>
+                            <span className="text-sm md:text-lg text-gray-300 font-itim uppercase">{unit}</span>
                         </div>
                     ))}
                 </div>

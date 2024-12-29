@@ -6,10 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'bunge-inline': ['"Bunge Inline"', 'cursive'],
+        itim: ['Itim', 'sans-serif'], // Ensure 'sans-serif' is used as fallback
       },
     },
   },
   plugins: [],
 }
-
